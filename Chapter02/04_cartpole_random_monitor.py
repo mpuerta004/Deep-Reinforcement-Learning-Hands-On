@@ -2,7 +2,7 @@ import gym
 
 
 if __name__ == "__main__":
-    env = gym.make("CartPole-v1", render_mode="rgb_array")
+    env = gym.make("CartPole-v0", render_mode="rgb_array")
     env=gym.wrappers.RecordVideo(env, video_folder="Chapter02/recording") 
     #env = gym.wrappers.Monitor(env, "recording")
 
